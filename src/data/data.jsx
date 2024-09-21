@@ -1,3 +1,4 @@
+import checkMark from "../assets/images/check-marksvg.svg";
 import facebook from "../assets/svg/facebook-icon.svg";
 import instagram from "../assets/svg/instagram-icon.svg";
 import linkedin from "../assets/svg/linkedin-icon.svg";
@@ -5,6 +6,12 @@ import reddit from "../assets/svg/reddit-icon.svg";
 import tiktok from "../assets/svg/Tiktok-1.svg";
 import x from "../assets/svg/X-Logo-Green.svg";
 import youtube from "../assets/svg/youtube-icon.svg";
+
+export const imgLists = [
+  { icon: checkMark, text: "100% Free to use" },
+  { icon: checkMark, text: "900+ High-Quality Products" },
+  { icon: checkMark, text: "Largest global print network" },
+];
 
 export const mainMenuLists = [
   { paht: "", label: "Catalog" },

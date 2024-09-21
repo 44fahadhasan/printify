@@ -9,7 +9,7 @@ const MainLayout = () => {
       <MainNav />
 
       {/* main layout */}
-      <main>
+      <main className="my-[70px]">
         <Outlet />
       </main>
 
