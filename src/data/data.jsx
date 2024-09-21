@@ -1,4 +1,7 @@
+import best from "../assets/images/best-selection.svg";
 import checkMark from "../assets/images/check-marksvg.svg";
+import higher from "../assets/images/higher-profits.svg";
+import robust from "../assets/images/robust-scaling.svg";
 import facebook from "../assets/svg/facebook-icon.svg";
 import instagram from "../assets/svg/instagram-icon.svg";
 import linkedin from "../assets/svg/linkedin-icon.svg";
@@ -6,6 +9,27 @@ import reddit from "../assets/svg/reddit-icon.svg";
 import tiktok from "../assets/svg/Tiktok-1.svg";
 import x from "../assets/svg/X-Logo-Green.svg";
 import youtube from "../assets/svg/youtube-icon.svg";
+
+export const featureInfos = [
+  {
+    img: higher,
+    title: "Higher Profits",
+    content:
+      "We offer some of the lowest prices in the industry because print providers continuously compete to win your business.",
+  },
+  {
+    img: robust,
+    title: "Robust Scaling",
+    content:
+      "Easily handle peak holiday seasons, with our wide network of partners and automatic routing functionality.",
+  },
+  {
+    img: best,
+    title: "Best Selection",
+    content:
+      "With 900+ products and top quality brands, you can choose the best products for your business.",
+  },
+];
 
 export const imgLists = [
   { icon: checkMark, text: "100% Free to use" },

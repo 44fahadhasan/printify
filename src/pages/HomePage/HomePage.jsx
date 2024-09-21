@@ -1,3 +1,4 @@
+import FeatureSection from "./FeatureSection";
 import HeroSection from "./HeroSection";
 
 const HomePage = () => {
@@ -5,6 +6,9 @@ const HomePage = () => {
     <>
       {/* hero section */}
       <HeroSection />
+
+      {/* feature section */}
+      <FeatureSection />
     </>
   );
 };
