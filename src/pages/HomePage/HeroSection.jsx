@@ -2,6 +2,7 @@ import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import HeroSectionBg from "../../assets/images/background-img-hero-sectionsvg.svg";
 import Button from "../../components/Button";
 import Container from "../../components/Container";
+import Content from "../../components/Content";
 import IconList from "../../components/IconList";
 import { imgLists } from "../../data/data";
 import HeroSectionSvg from "./animationSvg/HeroSectionSvg";
@@ -42,9 +43,12 @@ const HeroSection = () => {
             </div>
 
             {/* highlight text */}
-            <h6 className="roboto font-medium text-[#39b65e] mt-4">
-              Trusted by over 8M sellers around the world
-            </h6>
+            <Content
+              value={"Trusted by over 8M sellers around the world"}
+              m={"mt-4"}
+              color={"text-[#39b65e]"}
+              font={"ont-medium"}
+            />
           </div>
 
           {/* right animation svg */}

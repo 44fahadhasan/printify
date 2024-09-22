@@ -1,8 +1,12 @@
 import PropTypes from "prop-types";
 
-const Content = ({ value, color, size, font, m }) => {
+const Content = ({ align, value, color, size, font, m }) => {
   return (
-    <p className={`${color || "text-#485256"} ${size} ${font} ${m} roboto`}>
+    <p
+      className={`${
+        color || "text-[#485256]"
+      } ${size} ${font} ${m} ${align} roboto`}
+    >
       {value}
     </p>
   );
@@ -10,6 +14,7 @@ const Content = ({ value, color, size, font, m }) => {
 
 Content.propTypes = {
   value: PropTypes.string,
+  align: PropTypes.string,
   m: PropTypes.string,
   color: PropTypes.string,
   size: PropTypes.string,

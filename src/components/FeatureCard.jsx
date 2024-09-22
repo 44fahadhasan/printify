@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Content from "./Content";
 
 const FeatureCard = ({ cardInfo }) => {
   const { img, title, content } = cardInfo;
@@ -16,9 +17,7 @@ const FeatureCard = ({ cardInfo }) => {
       </h3>
 
       {/* content */}
-      <p className="roboto text-[#485256] pt-6 text-center md:text-left">
-        {content}
-      </p>
+      <Content value={content} m={"pt-6"} align={"text-center md:text-left"} />
     </div>
   );
 };
