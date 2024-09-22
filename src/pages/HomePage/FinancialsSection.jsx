@@ -7,7 +7,7 @@ import FinancialsSectionSvg from "./animationSvg/FinancialsSectionSvg";
 
 const FinancialsSection = () => {
   return (
-    <section>
+    <section className="my-14 md:my-36 lg:my-40">
       <Container>
         <div className="bg-[#203741] rounded-xl md:rounded-[20px] flex justify-between sm:m-10">
           {/* left side(content) */}

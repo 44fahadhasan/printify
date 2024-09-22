@@ -10,6 +10,39 @@ import tiktok from "../assets/svg/Tiktok-1.svg";
 import x from "../assets/svg/X-Logo-Green.svg";
 import youtube from "../assets/svg/youtube-icon.svg";
 
+export const feedbacks = [
+  {
+    image: "https://44fahadhasan.netlify.app/assets/profile-CgTsruaw.png",
+    name: "Md. Fahad Hasan",
+    rating: 3,
+    text: "The best print-on-demand service I've used! The platform is intuitive, and the quality is consistent. I've never had a complaint from my customers!",
+  },
+  {
+    image: "https://printify.com/pfh/media/quinten-barney-CHC7B3FG.png",
+    name: "John Doe",
+    rating: 5,
+    text: "Printify has been a game-changer for my small business! The quality of the prints is top-notch, and the customer service is outstanding. Highly recommended!",
+  },
+  {
+    image: "https://printify.com/pfh/media/robert-voltaire-RIZV7QXV.png",
+    name: "Jane Smith",
+    rating: 2,
+    text: "I love the variety of products and the easy-to-use platform. The shipping times could be faster, but overall, it's a great service for anyone looking to start.",
+  },
+  {
+    image: "https://printify.com/pfh/media/nikki-TJP4NANB.png",
+    name: "Alex Johnson",
+    rating: 5,
+    text: "Printify has allowed me to grow my brand effortlessly. The print quality is excellent, and the integration with my online store was seamless. I couldn't be happier!",
+  },
+  {
+    image: "https://printify.com/pfh/media/april-showers-BCJ7SD2U.jpeg",
+    name: "Emily Davis",
+    rating: 1,
+    text: "Good service with a wide range of products to choose from. There were some issues with a couple of orders, but their support team resolved them quickly.",
+  },
+];
+
 export const featureInfos = [
   {
     img: higher,

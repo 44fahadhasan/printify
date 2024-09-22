@@ -5,7 +5,7 @@ import { iconLists } from "../../../data/data";
 
 const FooterTop = () => {
   return (
-    <section className="bg-white pt-16">
+    <section className="bg-white">
       <Container>
         <div className="flex flex-col gap-6 sm:flex-row sm:justify-between sm:items-center">
           {/* logo */}

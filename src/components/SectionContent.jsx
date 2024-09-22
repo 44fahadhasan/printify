@@ -9,6 +9,7 @@ const SectionContent = ({
   content,
   contentSize,
   titleSize,
+  font,
 }) => {
   return (
     <div>
@@ -27,6 +28,7 @@ const SectionContent = ({
         m={contentPT}
         size={contentSize}
         color={contentClr}
+        font={font}
       />
     </div>
   );
@@ -34,6 +36,7 @@ const SectionContent = ({
 
 SectionContent.propTypes = {
   titleSize: PropTypes.string,
+  font: PropTypes.string,
   contentSize: PropTypes.string,
   titleClr: PropTypes.string,
   contentPT: PropTypes.string,
