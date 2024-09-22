@@ -23,13 +23,15 @@ const SectionContent = ({
       </h2>
 
       {/* content */}
-      <Content
-        value={content}
-        m={contentPT}
-        size={contentSize}
-        color={contentClr}
-        font={font}
-      />
+      {content && (
+        <Content
+          value={content}
+          m={contentPT}
+          size={contentSize}
+          color={contentClr}
+          font={font}
+        />
+      )}
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import ConnectStore from "./ConnectStore";
 import FeatureSection from "./FeatureSection";
 import FeedbackSection from "./FeedbackSection";
 import FinancialsSection from "./FinancialsSection";
@@ -11,6 +12,9 @@ const HomePage = () => {
 
       {/* feature section */}
       <FeatureSection />
+
+      {/* connect store section */}
+      <ConnectStore />
 
       {/* feedback section */}
       <FeedbackSection />
