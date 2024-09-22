@@ -1,4 +1,5 @@
 import FeatureSection from "./FeatureSection";
+import FinancialsSection from "./FinancialsSection";
 import HeroSection from "./HeroSection";
 
 const HomePage = () => {
@@ -9,6 +10,9 @@ const HomePage = () => {
 
       {/* feature section */}
       <FeatureSection />
+
+      {/* financials section */}
+      <FinancialsSection />
     </>
   );
 };
