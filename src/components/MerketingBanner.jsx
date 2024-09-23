@@ -1,16 +1,10 @@
-import bg from "../assets/images/talk-to-sales.svg";
 import Container from "./Container";
 import SectionContent from "./SectionContent";
 
 const MerketingBanner = () => {
   return (
     <Container>
-      <div
-        style={{
-          backgroundImage: `url(${bg})`,
-        }}
-        className="bg-contain bg-[#E2F7E3] bg-no-repeat bg-right py-10 rounded-3xl flex justify-around items-center"
-      >
+      <div className="bg-[url('/talk-to-sales.svg')] bg-contain bg-[#E2F7E3] bg-no-repeat bg-right py-10 rounded-3xl flex justify-around items-center">
         {/* title */}
         <div className="basis-[35%]">
           <SectionContent

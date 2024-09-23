@@ -1,5 +1,4 @@
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
-import HeroSectionBg from "../../assets/images/background-img-hero-sectionsvg.svg";
 import Button from "../../components/Button";
 import Container from "../../components/Container";
 import Content from "../../components/Content";
@@ -11,12 +10,7 @@ const HeroSection = () => {
   return (
     <section>
       <Container>
-        <div
-          className="flex flex-col gap-y-11 sm:gap-y-0 sm:flex-row justify-between items-center py-10 bg-no-repeat bg-right"
-          style={{
-            backgroundImage: `url(${HeroSectionBg})`,
-          }}
-        >
+        <div className="bg-[url('/background-img-hero-sectionsvg.svg')] flex flex-col gap-y-11 sm:gap-y-0 sm:flex-row justify-between items-center py-10 bg-no-repeat bg-right">
           {/* left content */}
           <div className="basis-[50%]">
             {/* title */}
