@@ -10,7 +10,7 @@ const MainNav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex border-b bg-white font-sans min-h-[70px] tracking-wide relative z-50">
+    <header className="flex border-b bg-white font-sans min-h-[70px] tracking-wide z-50 shadow-sm fixed w-full top-0">
       <Container>
         <div className="flex flex-wrap items-center justify-between py-3 gap-4 w-full">
           {/* nav start (website logo for large device) */}
