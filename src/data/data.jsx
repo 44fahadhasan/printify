@@ -1,7 +1,10 @@
 import best from "../assets/images/best-selection.svg";
 import checkMark from "../assets/images/check-marksvg.svg";
+import custom from "../assets/images/custom-products.webp";
+import fullfillment from "../assets/images/fullfillment.webp";
 import higher from "../assets/images/higher-profits.svg";
 import robust from "../assets/images/robust-scaling.svg";
+import your from "../assets/images/your-products.webp";
 import facebook from "../assets/svg/facebook-icon.svg";
 import instagram from "../assets/svg/instagram-icon.svg";
 import linkedin from "../assets/svg/linkedin-icon.svg";
@@ -9,6 +12,29 @@ import reddit from "../assets/svg/reddit-icon.svg";
 import tiktok from "../assets/svg/Tiktok-1.svg";
 import x from "../assets/svg/X-Logo-Green.svg";
 import youtube from "../assets/svg/youtube-icon.svg";
+
+export const processing = [
+  {
+    img: custom,
+    highlightTitle: "Create",
+    title: "custom products",
+    content:
+      "Easily add your designs to a wide range of products using our free tools",
+  },
+  {
+    img: your,
+    highlightTitle: "Sell",
+    title: "on your terms",
+    content:
+      "Once an order is placed, we automatically handle all the printing and delivery logistics",
+  },
+  {
+    img: fullfillment,
+    highlightTitle: "We handle",
+    title: "fulfillment",
+    content: "You choose the products, sale price, and where to sell",
+  },
+];
 
 export const feedbacks = [
   {

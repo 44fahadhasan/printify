@@ -3,6 +3,7 @@ import FeatureSection from "./FeatureSection";
 import FeedbackSection from "./FeedbackSection";
 import FinancialsSection from "./FinancialsSection";
 import HeroSection from "./HeroSection";
+import ProductLinkAndProcesSection from "./ProductLinkAndProcesSection";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,9 @@ const HomePage = () => {
 
       {/* feature section */}
       <FeatureSection />
+
+      {/* products link and processing sections */}
+      <ProductLinkAndProcesSection />
 
       {/* connect store section */}
       <ConnectStore />

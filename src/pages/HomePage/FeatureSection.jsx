@@ -1,21 +1,17 @@
 import Container from "../../components/Container";
-import FeatureCard from "../../components/FeatureCard";
 import { featureInfos } from "../../data/data";
+import ImgCardWarpper from "./ImgCardWarpper";
 
 const FeatureSection = () => {
   return (
-    <section>
-      <Container>
-        <div className="py-[56px] px-[24px] md:py-[144px] md:px-[74px]">
-          <div className="flex flex-col md:flex-row gap-10">
-            {/* feature card */}
-            {featureInfos?.map((cardInfo, idx) => (
-              <FeatureCard key={idx} cardInfo={cardInfo} />
-            ))}
-          </div>
-        </div>
-      </Container>
-    </section>
+    <Container>
+      <ImgCardWarpper
+        data={featureInfos}
+        imgSize={"w-[120px]"}
+        m={"pt-6"}
+        round={"rounded-full"}
+      />
+    </Container>
   );
 };
 
