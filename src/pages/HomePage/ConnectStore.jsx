@@ -17,9 +17,11 @@ const ConnectStore = () => {
       </div>
 
       {/* store icons & banner */}
-      <div className="space-y-32 md:space-y-44">
+      <div>
         {/* store icons */}
-        <StoreIcons />
+        <div className="pb-32 md:pb-44">
+          <StoreIcons />
+        </div>
 
         {/* banner */}
         <MerketingBanner />
